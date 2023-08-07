@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: test-annotations-evsa
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/tnevrlka-test/build-e2e-rlhb-tenant/build-suite-test-application-vnzh/test-annotations-evsa@sha256:3658cc5f2a1c8a50148b07663f4f197d16417e6b823e54dfbe9095d89c786165
+        name: my-nginx
+        resources: {}
+status: {}
