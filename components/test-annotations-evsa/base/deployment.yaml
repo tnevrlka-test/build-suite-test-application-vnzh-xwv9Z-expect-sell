@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: test-annotations-evsa
     spec:
       containers:
-      - image: quay.io/tnevrlka-test/build-e2e-rlhb-tenant/build-suite-test-application-vnzh/test-annotations-evsa@sha256:3658cc5f2a1c8a50148b07663f4f197d16417e6b823e54dfbe9095d89c786165
+      - image: quay.io/tnevrlka-test/build-e2e-rlhb-tenant/build-suite-test-application-vnzh/test-annotations-evsa@sha256:465f06e427837b98e2ed8a89c00d8e43109ed45bccff09db4f4ec817a114fa39
         name: my-nginx
         ports:
         - containerPort: 8080
